@@ -1,0 +1,39 @@
+Ignorar la carpeta de compilación de Maven
+
+/target/
+
+Ignorar archivo POM reducido generado por Shade plugin
+
+dependency-reduced-pom.xml
+
+Ignorar archivos de Log
+
+*.log
+.log.
+
+Ignorar configuración de Visual Studio Code
+
+.vscode/
+
+Ignorar archivos de IDEs comunes (IntelliJ, Eclipse)
+
+Es bueno tenerlos por si un compañero usa otro IDE
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.project
+.classpath
+.settings/
+
+Ignorar archivos de Sistema Operativo
+
+macOS
+
+.DS_Store
+
+Windows
+
+Thumbs.db
